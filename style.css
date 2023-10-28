@@ -1,0 +1,111 @@
+body {
+    background-color: #473A59;
+}
+
+body{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+body h1{
+    font-size: 80px;
+    text-align: center;
+}
+body h3{
+    position: relative;
+    top: -70px;
+    text-align: center;
+}
+.container {
+    /* display: flex; */
+    margin:125px auto;
+    height: 700px;
+    width: 400px;
+    background-color: salmon;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 8px #1E1E1E;
+    background-image:url(images/night1.jpg);
+    background-size: cover;
+}
+
+/* .search-bar{
+    position: relative;
+    top: 20px;
+    margin:0 auto;
+    height: 40px;
+    background-color: #ffff;
+    width: 70%;
+} */
+  
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* top: 0; */
+}
+
+.searchTerm {
+    width: 60%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus{
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 100%;
+    position: relative;
+    top: 7%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.data{
+    width: 83%;
+    display: block;
+    position: relative;
+    bottom: -350px;
+    left: 30px;
+}
+.data-bottom{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    
+}
+h5{
+    margin:0;
+}
+.subdata {
+    display:flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.data-bottom h4{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
